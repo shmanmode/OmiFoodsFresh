@@ -120,7 +120,7 @@ var MemStorage = class {
       isVeg: true,
       categoryId: momos.id,
       isFeatured: true,
-      imageUrl: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      imageUrl: "/assets/WhatsApp_Image_2025-04-10_at_16.46.58.jpeg",
       badge: "Bestseller",
       inStock: true
     });
@@ -133,8 +133,21 @@ var MemStorage = class {
       isVeg: true,
       categoryId: kurkureMomos.id,
       isFeatured: true,
-      imageUrl: "https://images.unsplash.com/photo-1626921061845-d919dca6cd04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      imageUrl: "/assets/WhatsApp_Image_2025-04-10_at_16.46.56.jpeg",
       badge: "New",
+      inStock: true
+    });
+    this.createProduct({
+      name: "Paneer Kurkure Momos",
+      slug: "paneer-kurkure-momos",
+      description: "Delicious paneer-filled kurkure momos with a crispy exterior.",
+      price: 16e3,
+      // ₹160
+      isVeg: true,
+      categoryId: kurkureMomos.id,
+      isFeatured: true,
+      imageUrl: "/assets/WhatsApp_Image_2025-04-10_at_16.46.57.jpeg",
+      badge: "Popular",
       inStock: true
     });
     this.createProduct({
@@ -146,34 +159,34 @@ var MemStorage = class {
       isVeg: true,
       categoryId: springRoll.id,
       isFeatured: true,
-      imageUrl: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      imageUrl: "/assets/WhatsApp_Image_2025-04-10_at_16.46.53.jpeg",
       badge: "Popular",
       inStock: true
     });
     this.createProduct({
       name: "Medu Vada",
       slug: "medu-vada",
-      description: "Traditional South Indian vada.",
+      description: "Traditional South Indian vada for crispy and tasty snacking.",
       price: 13e3,
       // ₹130
       isVeg: true,
       categoryId: vada.id,
-      isFeatured: false,
-      imageUrl: "https://images.unsplash.com/photo-1571066811602-716837d681de?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      badge: "",
+      isFeatured: true,
+      imageUrl: "/assets/WhatsApp_Image_2025-04-10_at_16.46.39.jpeg",
+      badge: "Best Seller",
       inStock: true
     });
     this.createProduct({
       name: "Veg Burger Patty",
       slug: "veg-burger-patty",
-      description: "Ready-to-cook vegetable patties.",
+      description: "Ready-to-cook vegetable patties, perfect for quick and delicious burgers.",
       price: 16e3,
       // ₹160
       isVeg: true,
       categoryId: burgerPatty.id,
-      isFeatured: false,
-      imageUrl: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      badge: "",
+      isFeatured: true,
+      imageUrl: "/assets/WhatsApp_Image_2025-04-10_at_16.46.50.jpeg",
+      badge: "Popular",
       inStock: true
     });
     this.createProduct({
